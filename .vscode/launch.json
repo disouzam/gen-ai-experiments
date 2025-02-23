@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Module",
+            "name": "Debug similar word retrieval",
             "type": "debugpy",
             "request": "launch",
-            "module": "main",
+            "module": "retrieve_similar_words",
             "cwd": "${workspaceFolder}/exp01"
         }
     ]
