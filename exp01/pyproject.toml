@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exp01"
+version = "0.1.0"
+description = "Execute code sample from https://www.youtube.com/watch?v=wjZofJX0v4M&lc=Ugz3CPsgSuSxZWs8W214AaABAg - Transformers (how LLMs work) explained visually | DL5"
+authors = ["Dickson Souza <36424026+disouzam@users.noreply.github.com>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gensim = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
